@@ -55,7 +55,7 @@ function App() {
 
       </Route>
     </Switch>
-<h1> Hello </h1>
+
     
     </div>
     </Router>
