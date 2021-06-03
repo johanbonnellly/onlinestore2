@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className= "home">
             <img  className= "home__image"
-          src = 'https://www.monsterinsights.com/wp-content/uploads/2019/11/breathtaking-online-shopping-statistics-you-never-knew.png' alt = '' />
+          src = '' alt = '' />
           {/* Product id, title, price, rating, image */}
           
           const productArr =  [
