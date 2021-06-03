@@ -1,14 +1,16 @@
 import React from 'react'
 import './Home.css'
 import Product from './Product'
+import { useState } from 'react'
 
 function Home() {
     return (
         <div className= "home">
             <img  className= "home__image"
-          src = 'https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg' alt = '' />
+          src = 'https://www.monsterinsights.com/wp-content/uploads/2019/11/breathtaking-online-shopping-statistics-you-never-knew.png' alt = '' />
           {/* Product id, title, price, rating, image */}
-         
+          
+          const productArr =  [
          <div className= "home__row" >
          <Product 
          id= '1234'
@@ -68,6 +70,9 @@ function Home() {
          />
 
       </div>
+      
+      
+
 
         </div>
     )

@@ -37,7 +37,7 @@ function Login() {
             <Link to = '/'>
                 <img 
                 className = 'login__logo'
-                src= 'https://logos-marcas.com/wp-content/uploads/2020/04/Amazon-Logo.png'
+                src= 'https://img2.freepng.es/20180128/ojw/kisspng-logo-shopping-shopping-logo-design-5a6db6532c7f63.6926652415171395391823.jpg'
                 alt= ''
                 />
             

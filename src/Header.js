@@ -23,12 +23,12 @@ function Header() {
         <nav className = 'header'>
             {/* Logo on the left  */}
             <Link to = '/'>
-            <img className= 'header__logo' src = 'https://logos-marcas.com/wp-content/uploads/2020/04/Amazon-Logo.png' alt = '' />
+            <img className= 'header__logo' src = 'https://img2.freepng.es/20180128/ojw/kisspng-logo-shopping-shopping-logo-design-5a6db6532c7f63.6926652415171395391823.jpg' alt = '' />
             </Link>
             {/* Searh box  */}
 
             <div className = "header__search">
-            <input type = 'text' className = 'header__searchInput' />
+            <input type = 'text' placeholder= "Search..." className = 'header__searchInput' />
             <SearchIcon className = 'header__searchIcon' />
             </div>
 
@@ -42,21 +42,7 @@ function Header() {
                </div>
                </Link>
 
-              {/* 2n link  */}
-              <Link to = '/' className = "header__link">
-               <div className = "header__option">
-                   <span className = "header__optionLineOne" > Returns </span>
-                   <span className = "header__optionLineTwo"> Orders </span>
-               </div>
-               </Link>
-
-              {/* 3rd link  */}
-              <Link to = '/' className = "header__link">
-               <div className = "header__option">
-                   <span className = "header__optionLineOne" > Your </span>
-                   <span className = "header__optionLineTwo"> Prime </span>
-               </div>
-               </Link>
+              
               {/* 4th link  */}
              <Link to = '/checkout' className = "header__link">
               <div className = "header__optionBasket">
